@@ -1,0 +1,16 @@
+.portada{
+	background: url(/assets/images/portada.png)no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: center;
+    min-height: 150px;
+}
+
+.portada h1{
+    color: rgb(22, 26, 31);
+	font-weight: 750;
+	text-transform: capitalize;	
+	text-shadow: 0 0 0.2em rgb(248, 189, 180), 0 0 0.2em rgb(248, 189, 180);
+}
