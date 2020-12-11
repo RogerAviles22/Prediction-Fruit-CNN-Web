@@ -1,3 +1,19 @@
 body{
     background-color: rgb(23, 57, 92);
 }
+
+section>div{
+    background-color: rgb(39, 38, 54);
+    border-color: #92cc25;
+    border-radius: 5px;
+    border-style: solid;
+    padding: 10px;
+}
+
+section h2{
+    color: #92cc25;    
+}
+
+section p, ul li{
+    color: rgb(247, 245, 242);
+}
