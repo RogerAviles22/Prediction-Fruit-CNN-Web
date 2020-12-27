@@ -1,9 +1,12 @@
 <section class="predict-general ">
-    <div class="rounded-3 shadow predict-div py-2">
+    <div class="rounded-3 shadow predict-div py-2 ">
         <h2 class="text-center">Predicción</h2>
         <div class="d-flex flex-row text-center">
             <p class="m-3">Cargue la imagen a predecir: </p>
-            <button type="button" class="btn btn-light">Subir Imagen</button>
+            <input type="file" style="color: white" (change)="onFileSelected($event)">
+        </div>
+        <div class="">
+            <button type="button" class="btn btn-light">Procesar</button>
         </div>
     </div>
 </section>

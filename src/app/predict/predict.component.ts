@@ -7,9 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PredictComponent implements OnInit {
 
+
   constructor() { }
 
   ngOnInit(): void {
   }
 
+  onFileSelected(event){
+    console.log(event);
+  }
 }
